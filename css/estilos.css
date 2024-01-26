@@ -45,7 +45,7 @@ h2, h3{
 }
 
 .dot{
-    border-bottom: dotted 3px var(--white);
+    border-bottom: dashed 1px var(--white);
     width: 100%;
     float: left;
     position: relative;
