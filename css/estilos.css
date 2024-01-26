@@ -21,7 +21,7 @@ h2{
 h2, h3{
     color: var(--white);
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
 }
 
 .yellow-text{
@@ -59,6 +59,7 @@ h2, h3{
 
 .item h3{
     margin: 10px 0;
+    font-size: 16px;
 }
 
 .item .price{
