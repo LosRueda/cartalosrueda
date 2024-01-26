@@ -1,3 +1,10 @@
+:root{
+    --yellow: #FBC000;
+    --red: #E64748;
+    --green: #00A296;
+    --white: #FFF;
+
+}
 body{
     font-family: 'Roboto', sans-serif;
     background: #202020;
@@ -7,16 +14,59 @@ a{
     cursor: pointer;
 }
 
-.carta{
+h2{
+    margin: 40px 0 15px 0;
+}
+
+h2, h3{
+    color: var(--white);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.yellow-text{
+    color: var(--yellow);
+}
+
+.red-text{
+    color: var(--red);
+}
+
+.green-text{
+    color: var(--green);
+}
+
+.item{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    width: 100%;
+}
+
+.dot{
+    border-bottom: dotted 3px var(--white);
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    height: 25px;
+}
+
+.section-title{
+    margin: 20px 0 0 0;
+}
+
+.item h3{
+    margin: 10px 0;
+}
+
+.item .price{
+    margin-bottom: 0;
 }
 
 .carta img{
-    width: 1000px;
-    -webkit-box-shadow: 2px 7px 16px 1px rgba(0,0,0,0.34);
-    -moz-box-shadow: 2px 7px 16px 1px rgba(0,0,0,0.34);
-    box-shadow: 2px 7px 16px 1px rgba(0,0,0,0.34);
+    width: 100%;
 }
 
 .carta-mobile{
@@ -47,6 +97,14 @@ a{
     vertical-align: middle;
 }
 
+.last-section{
+    margin-bottom: 100px;
+}
+
+.container{
+    padding: 20px;
+}
+
 @media screen and (max-width: 576px){
     .carta-desktop{
         display: none;
@@ -56,7 +114,7 @@ a{
     }
 
     .carta img{
-        width: 400px;
+        width: 100%;
     }
     .whatsapp{
         bottom: 10px;
